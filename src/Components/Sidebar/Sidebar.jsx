@@ -25,9 +25,8 @@ const Sidebar = ({
             <h2>Notes App</h2>
 
             <button
-                className={`sidebar-btn ${
-                    activeTab === 'notes' ? 'active' : ''
-                }`}
+                className={`sidebar-btn ${activeTab === 'notes' ? 'active' : ''
+                    }`}
                 onClick={() => setActiveTab('notes')}
             >
                 <Search size={20} />
@@ -35,9 +34,8 @@ const Sidebar = ({
             </button>
 
             <button
-                className={`sidebar-btn ${
-                    activeTab === 'favorites' ? 'active' : ''
-                }`}
+                className={`sidebar-btn ${activeTab === 'favorites' ? 'active' : ''
+                    }`}
                 onClick={() => setActiveTab('favorites')}
             >
                 <Star size={20} />
@@ -45,9 +43,8 @@ const Sidebar = ({
             </button>
 
             <button
-                className={`sidebar-btn ${
-                    activeTab === 'trash' ? 'active' : ''
-                }`}
+                className={`sidebar-btn ${activeTab === 'trash' ? 'active' : ''
+                    }`}
                 onClick={() => setActiveTab('trash')}
             >
                 <Trash2 size={20} />
